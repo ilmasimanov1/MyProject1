@@ -1,0 +1,78 @@
+/* Home page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./image/thumbnail-7.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+.div1{
+    background-color: red;
+    text-align: center;
+}
+.div1 ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.div1 ul li{
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+}
+.div1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.active,.div1 ul li:hover{
+    background: #f1c40f;
+    border-radius: 3px;
+}
+.div1 .fa{
+    margin-right: 8px;
+}
+/* .div2{
+    display: none;
+}
+.div1 ul li:hover .div2{
+    display: block;
+    position: absolute;
+    background: red;
+    margin-top: 15px;
+    margin-left: -15px;
+} */
+/* Login */
+.form{
+    background-color: darkred;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 530px;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+}
+.form a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Register */
+.form1{
+    background-color: darkred;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 530px;
+    padding: 10px;
+    width: 300px;
+    height: 360px;
+}
+.form1 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/* .form1 label,h1{
+    color: black;
+} */
